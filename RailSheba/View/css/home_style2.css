@@ -1,0 +1,32 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
+body{
+  
+  
+    background-image: url("../image/train.png");
+    
+}
+.main-content{
+    width: 50%;
+    height: 40%;
+    margin: 10px auto;
+    background-image: url("./image/train.png");
+   
+   
+ }
+form {
+    margin: 20px auto;
+    width: 420px;
+}
+.form-row {
+    padding: 5px 10px;
+}
+label {
+    display: block;
+    margin: 3px 0;
+}
+.form-row input {
+    padding: 3px 1px;
+    width: 220px;
+}

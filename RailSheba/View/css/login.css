@@ -1,0 +1,54 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+
+body{
+  
+  
+     background-image: url("../image/train.png");
+     
+}
+.button {
+   transition-duration: 0.4s;
+   height: 50px;
+   background-color: aquamarine;
+   
+ }
+ 
+ .button:hover {
+   background-color: #3a7c3c; 
+   color: rgb(109, 189, 228);
+ }
+.main-content{
+   width: 50%;
+   height: 40%;
+   margin: 10px auto;
+   background-image: url("./image/train.png");
+  
+   border: 2px solid #000;
+   padding: 40px 50px;
+}
+.header{
+   border: 0px solid #000;
+   margin-bottom: 5px;
+}
+.well{
+   background-color: #237e4f;
+}
+#signin{
+   width: 60%;
+   border-radius: 30px;
+}
+.overlap-text{
+   position: relative;
+}
+.overlap-text a{
+   position: absolute;
+   top: 8px;
+   right: 10px;
+   font-size: 14px;
+   text-decoration: none;
+   font-family: 'Overpass Mono', monospace;
+   letter-spacing: -1px;
+
+}

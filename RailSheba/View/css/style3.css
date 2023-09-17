@@ -1,0 +1,30 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+*{
+    padding: 0;
+    margin: 0;
+    background: #7ea6cb;
+    color: rgb(26, 25, 25);
+  }
+  
+  /* unvisited link */
+  a:link {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #fff;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #00539c;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(113, 164, 164);
+  }
+  
